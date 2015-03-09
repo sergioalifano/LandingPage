@@ -188,6 +188,10 @@ td,
 th {
   padding: 0;
 }
+
+
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
@@ -1116,6 +1120,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+ 
 }
 .img-rounded {
   border-radius: 6px;
@@ -1135,6 +1140,7 @@ img {
 }
 .img-circle {
   border-radius: 50%;
+
 }
 hr {
   margin-top: 20px;
@@ -1582,6 +1588,9 @@ pre code {
     width: 1170px;
   }
 }
+
+
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -2278,7 +2287,7 @@ th {
 .table-condensed > tbody > tr > th,
 .table-condensed > tfoot > tr > th,
 .table-condensed > thead > tr > td,
-.table-condensed > tbody > tr > td,
+.table-condensed> tbody > tr > td,
 .table-condensed > tfoot > tr > td {
   padding: 5px;
 }

@@ -215,6 +215,7 @@
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.js" />
+    <Content Include="js\smoothscroll.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -267,6 +268,7 @@
       <DependentUpon>ContactFormModel.edmx</DependentUpon>
       <LastGenOutput>ContactFormModel.cs</LastGenOutput>
     </Content>
+    <Content Include="img\Sergio Alifano Resume.pdf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

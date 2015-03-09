@@ -64,7 +64,7 @@ namespace WebApplication1.Controllers
 
             SmtpServer.Send(mail);
             //redirect the user to the thank you page
-            return RedirectToAction("contact");
+            return RedirectToAction("Index");
             //return View();
         }
     }

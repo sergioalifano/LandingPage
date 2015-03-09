@@ -10,12 +10,52 @@ tr,td{
 
 }
 
-.quote{
-    margin-top:75px;
+.quote{ 
+    margin-top:5%;
     font-family: 'Qwigley', cursive;
     font-size:200%;
-    text-align:center
+    text-align:center;
+    line-height: 1.45;
+    color:white;   
+    font-weight:100;
 }
+
+/*.quote:before {
+    display: block;
+content: "\201C";
+font-size: 80px;
+position:relative;
+top: 80px;
+left:-17%
+}*/
+
+
+.blockquote {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+width: 500px;
+margin: 0.25em 0;
+padding: 0.35em 40px;
+line-height: 1.45;
+/*position: relative;*/
+/*color: #383838;*/
+
+ text-align:center
+}
+
+.blockquote:before {
+display: block;
+/*padding-left: 10px;*/
+content: "\201C";
+font-size: 50px;
+/*position: absolute;*/
+left: -20px;
+top: -20px;
+
+position:relative;
+}
+
 
 body,
 html {
@@ -36,7 +76,13 @@ h6 {
 
 #pdf{
     margin-left:20%;
+    display:block;
+    max-width:100%;
+    width:800px;
+    height:600px;
 }
+
+
 
 
 .topnav {
@@ -48,22 +94,23 @@ h6 {
     font-size: 18px;
     font-weight: 400;
     color:#fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
 }
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    /*padding-bottom: 20px;*/
+    padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background-image: url(../img/color-bg.jpg);
-    background-size:contain;
+    background-image: url(../img/color2-bg.jpg);
+    background-size:cover;
 }
 
 .intro-message {
     position: relative;
     padding-top: 20%;
     padding-bottom: 20%;
-    /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
+    /*text-align:center;*/
 }
 
 .intro-message > h1 {
@@ -104,8 +151,77 @@ h6 {
 
     .intro-divider {
         width: 100%;
+        background-color:azure;
     }
 }
+
+
+
+.content-about{
+    padding: 50px 0;   
+    background: url(../img/about-bg.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#pisa{
+    margin-left:30px;
+    margin-top:15px;
+  border-radius:6px; background: rgba(240,230,220, .7);padding:10px;
+}
+
+#london{  
+     -webkit-transform:rotate(5deg); 
+     border-radius:6px; background: rgba(240,230,220, .7);padding:10px;
+}
+
+#barcelona{
+    -webkit-transform:rotate(5deg); 
+     border-radius:6px; background: rgba(240,230,220, .7);padding:10px;
+}
+
+#sing{
+    -webkit-transform:rotate(5deg); 
+     border-radius:6px; background: rgba(240,230,220, .7);padding:10px;
+}
+
+#bg-img{
+     border-radius:6px; background: rgba(240,230,220, .7);padding:10px;
+}
+
+#bg-img-translated >h1{
+   border-radius:6px; background: rgba(240,230,220, .7);
+    -webkit-transform:rotate(2deg);  
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-weight:300;
+    color:black;  
+    padding: 5px;
+    
+}
+
+#img-padding{
+    margin-right:50px;
+}
+
+#img-padding-right{
+    margin-right:0px;
+}
+
+/*h2 { 
+   position: absolute; 
+   top: 10%; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span { 
+   color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   /*background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}*/
 
 .network-name {
     text-transform: uppercase;
@@ -131,13 +247,14 @@ h6 {
 
 .content-section-c {
     padding: 50px 0;
-    background-color:azure;
+    background-color:dimgray
 }
 
 
 .section-heading {
     margin-bottom: 30px;
     color:#fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
 }
 
 .section-heading-spacer {
